@@ -313,10 +313,10 @@ function Max(max: number) {
     };
 }
 
-const userService = new UserService();
-userService.users = 1;
-console.log(userService.users);
-userService.users = 1000;
-console.log(userService.users);
+// const userService = new UserService();
+// userService.users = 1;
+// console.log(userService.users);
+// userService.users = 1000;
+// console.log(userService.users);
 
 // так же существует декоратор параметров
