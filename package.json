@@ -1,14 +1,18 @@
 {
-  "name": "typescript-course",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kvaratshelia Mihail",
-  "license": "ISC",
-  "dependencies": {
-    "reflect-metadata": "^0.2.1"
-  }
+    "name": "typescript-course",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kvaratshelia Mihail",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^8.2.0"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^8.2.0",
+        "@types/node": "^20.10.0"
+    }
 }
